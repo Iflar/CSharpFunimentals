@@ -74,11 +74,16 @@ namespace _03_Operators
             string userName = Console.ReadLine();
 
             bool equals = age == 41;
-            Console.WriteLine(equals);
+            Console.WriteLine("user is 41" + " " + equals);
 
             bool notEquals = age != 41;
-            Console.WriteLine(notEquals);
+            Console.WriteLine($"user is not 41{notEquals}" );
 
+            List<string> firstList = new List<string>();
+            firstList.Add(userName);
+
+            List<string> newList = new List<string>();
+            newList.Add(userName);
 
 
             //is as typeOf  -- look these up
