@@ -19,6 +19,16 @@ namespace _04_Tenaries
             bool boolresult = (age > 17) ? true : false;
             Console.WriteLine(boolresult);
 
+            int a = 10;
+            int b = 15;
+            int myResult = b % a;
+            Console.WriteLine(myResult);
+
+            int ten = 10;
+            int three = 3;
+            int answer = ten % three;
+            Console.WriteLine(answer);
+
             Console.ReadKey();
         }
     }
